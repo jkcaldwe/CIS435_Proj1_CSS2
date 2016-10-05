@@ -1,33 +1,64 @@
 body {
 	font-family: sans-serif;
+	background-image: url('../images/bats.gif');
+	background-repeat: repeat;
+	background-color: red;
 }
 
+main{
+	width: 800px;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	box-shadow: 0px 0px 15px 8px #000000;
+	background-color: white;
+}
+
+header{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-left: none;
+	border-right: none;
+	padding: 0px 15px;
+	background: linear-gradient(45deg, white, orange 75%, black);
+}
 header img{
-	height: 120px;
+	height: 100px;
 	width: 120px;
 	float: left;
 	margin-right: 20px;
+	margin-top: 10px;
 }
 header h2{
-	font-size: 3em;
-	color: #ffa500; /*orange*/
-	font-style: italic;
+	font-size: 2.5em;
+	color: #000000; /*black*/
 	font-weight: 850;
-	text-shadow: 2px 2px 4px #000000;
+	margin-bottom: -20px;
+	margin-top: .5em;
 }
 
 header h3{
-	font-size: 1.7em;
-	font-weight: 700;
+	font-size: 1.4em;
+	font-weight: 600;
 }
 
+section{
+	padding: 0px 20px;
+}
+
+h1{
+	font-size: 1.7em;
+}
 h1 strong {
 	font-size: 2.5em;
 }
 
 h2{
-	font-size: 1.7em;
+	font-size: 1.5em;
 	font-weight: 700;
+	margin-bottom: -10px;
 }
 
 a:link , a:visited {
@@ -44,10 +75,18 @@ li{
 }
 
 p {
-	font-size: 1.5em;
+	font-size: 1.15em;
 }
 
 footer {
 	font-size: 1.2em;
 	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	padding: 15px 0px;
+	background: linear-gradient(45deg, black, orange 25%, white);
 }
